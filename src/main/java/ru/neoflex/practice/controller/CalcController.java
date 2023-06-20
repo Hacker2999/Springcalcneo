@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
                 )
         )
 )
-@Tag(name = "Калькулятор", description = "Позволяет складывать, вычитать, умножать и делить числа")
+@Tag(name = "Калькулятор", description = "Позволяет складывать, вычитать числа")
 public class CalcController {
     @GetMapping("/plus/{a}/{b}")
     @Operation(
